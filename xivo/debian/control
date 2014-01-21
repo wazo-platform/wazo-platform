@@ -1,0 +1,81 @@
+Source: xivo
+Section: comm
+Priority: extra
+Maintainer: XiVO Dev Team <dev@avencall.com>
+Uploaders: XiVO Builder Team <release@xivo.fr>
+Build-Depends: cdbs, debhelper
+Standards-Version: 3.7.2.2
+
+Package: xivo
+Architecture: all
+Depends:
+    asterisk (>= 11.6.0),
+    asterisk-sounds-main,
+    asterisk-sounds-wav-en-us,
+    asterisk-sounds-wav-fr-fr,
+    fail2ban,
+    isc-dhcp-server,
+    libtiff-tools,
+    madplay,
+    molly-guard,
+    mutt,
+    ntp,
+    postfix,
+    postgresql,
+    postgresql-plpython,
+    rabbitmq-server,
+    rsync,
+    screen,
+    sox,
+    uuid-runtime,
+    vlan,
+    xivo-agent,
+    xivo-agid,
+    xivo-amid,
+    xivo-backup,
+    xivo-call-logs,
+    xivo-confgen,
+    xivo-confgend,
+    xivo-config,
+    xivo-ctid,
+    xivo-dxtora,
+    xivo-fetchfw,
+    xivo-keyring,
+    xivo-libsccp,
+    xivo-manage-db,
+    xivo-monitoring,
+    xivo-provd,
+    xivo-restapi,
+    xivo-sounds-en-us,
+    xivo-sounds-fr-fr,
+    xivo-stat,
+    xivo-upgrade,
+    xivo-web-interface,
+Recommends: pf-asterisk-res-watchdog
+Suggests: capiutils, asterisk-chan-capi
+Provides: pf-common-2, pf-xivo
+Replaces: pf-xivo
+Conflicts: pf-asterisk-app-devstate, sangoma-wanpipe-firmwares, pf-common, pf-common-2, postgresql-plpython-9.0, pf-xivo
+Description: XIVO complete telephony solution
+ XIVO is a system based on a powerful IPBX, to bring an easy to
+ install solution for telephony and related services.
+ .
+ This meta package is used to install the full XIVO system.
+ .
+  Homepage: http://xivo.fr/
+
+Package: xivo-debug-tools
+Architecture: all
+Depends: file, man-db, manpages-dev, strace, ltrace, gdb, tshark, netcat, php5-cli, telnet, ngrep, pciutils, bc, nmap, binutils, lsof, build-essential
+Provides: pf-xivo-debug-tools
+Replaces: pf-xivo-debug-tools
+Conflicts: pf-xivo-debug-tools
+Description: XIVO complete telephony solution -- debug tools
+ XIVO is a system based on a powerful IPBX, to bring an easy to
+ install solution for telephony and related services.
+ .
+ This meta package is used to install selected tools to debug
+ the XIVO system
+ .
+  Homepage: http://xivo.fr/
+

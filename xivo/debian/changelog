@@ -1,0 +1,768 @@
+xivo (14:14.01~20140110.164911.03a9dcd-wheezy-5) xivo-dev; urgency=low
+
+  * handle upgrade command in preinst
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Thu, 16 Jan 2014 15:34:07 -0500
+
+xivo (14:14.01~20140110.164911.03a9dcd-wheezy-4) xivo-dev; urgency=low
+
+  * revert "move /etc/pf-xivo to /etc/xivo in xivo postinst"
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Wed, 15 Jan 2014 15:47:30 -0500
+
+xivo (14:14.01~20140110.164911.03a9dcd-wheezy-3) xivo-dev; urgency=low
+
+  * move /etc/pf-xivo to /etc/xivo in xivo postinst
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Wed, 15 Jan 2014 14:09:26 -0500
+
+xivo (14:14.01~20140110.164911.03a9dcd-wheezy-2) xivo-dev; urgency=low
+
+  * stop writing yes in /etc/default/xivo in xivo postinst
+
+ -- Pascal Cadotte Michaud <pcadottemichaud@avencall.com>  Tue, 14 Jan 2014 14:20:53 -0500
+
+xivo (14:14.01~20131230.142300.012461e-wheezy-2) xivo-dev; urgency=low
+
+  * bump version in changelog for packaging farm
+
+ -- Jean-Philippe Gélinas <jpgelinas@avencall.com>  Mon, 30 Dec 2013 15:56:05 -0500
+
+xivo (14:13.25~20131213.170548.6bc676f-wheezy-3) xivo-dev; urgency=low
+
+  * rename pf-xivo to xivo
+
+ -- Cedric Abunar <cabunar@avencall.com>  Tue, 17 Dec 2013 14:05:38 -0500
+
+pf-xivo (14:13.25~20131213.170548.6bc676f-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove depends on xivo-amid
+
+ -- Jean-Philippe Gelinas <jpgelinas@avencall.com>  Fri, 13 Dec 2013 13:05:57 -0500
+ 
+pf-xivo (14:13.25~20131209.151652.f4cc2ec-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-amid
+
+ -- Jean-Philippe Gelinas <jpgelinas@avencall.com>  Fri, 13 Dec 2013 13:05:56 -0500
+
+pf-xivo (14:13.24~20131125.152447.d91c08e-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * update asterisk dependency version from 1.8 to 11.6.0
+
+ -- Pascal Cadotte Michaud <pcadottemichaud@avencall.com>  Wed, 04 Dec 2013 08:05:57 -0500
+
+pf-xivo (14:13.22~20131028.134121.25e406d-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix depends
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Wed, 06 Nov 2013 12:07:36 -0500
+
+pf-xivo (14:13.18~20130903.151945.e59fdaa-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on postgresql-9.1
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Thu, 05 Sep 2013 15:53:03 -0400
+
+pf-xivo (14:13.16~20130807.143115.d097030-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-call-logs
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Fri, 09 Aug 2013 15:28:01 -0400
+
+pf-xivo (14:13.09~20130429.140153.38abc55-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove references to asterisk11
+
+ -- Etienne Lessard <elessard@avencall.com>  Wed, 08 May 2013 13:47:03 -0400
+
+pf-xivo (14:13.09~20130429.140153.38abc55-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on postgresql-plpython
+
+ -- Pascal Cadotte Michaud <pcadottemichaud@avencall.com>  Fri, 03 May 2013 14:52:05 -0400
+
+pf-xivo (14:13.04~20121206.200428.d721716-4) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-keyring 
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Mon, 25 Feb 2013 11:53:30 -0500
+
+pf-xivo (14:13.04~20121206.200428.d721716-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on asterisk11 
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Fri, 22 Feb 2013 12:56:43 -0500
+
+pf-xivo (14:13.04~20121206.200428.d721716-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * depends on xivo-web-interface 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 19 Feb 2013 14:16:07 -0500
+
+pf-xivo (14:13.02~20121206.200428.d721716-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-restapi 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 28 Jan 2013 10:26:43 -0500
+
+pf-xivo (14:13.02~20121206.200428.d721716-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-monitoring 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 23 Jan 2013 09:57:40 -0500
+
+pf-xivo (14:12.24~20121206.200428.d721716-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add rabbitmq-server to dependencies
+
+ -- Etienne Lessard <elessard@avencall.com>  Tue, 11 Dec 2012 14:56:58 -0500
+
+pf-xivo (14:12.23~20121023.161957.e89acc0-4) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove supervisor
+
+ -- Etienne Lessard <elessard@avencall.com>  Tue, 27 Nov 2012 13:33:33 -0500
+
+pf-xivo (14:12.23~20121023.161957.e89acc0-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * depends on xivo-provisioning 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 26 Nov 2012 15:03:14 -0500
+
+pf-xivo (14:12.23~20121023.161957.e89acc0-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add xivo-agent and supervisor
+
+ -- Etienne Lessard <elessard@avencall.com>  Tue, 20 Nov 2012 15:40:55 -0500
+
+pf-xivo (14:12.21~20120725.145449.3be7fce-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove unused xivo-uuid
+
+ -- Cedric Abunar (cabunar) <cabunar@avencall.com>  Tue, 23 Oct 2012 13:37:28 -0400
+
+pf-xivo (14:12.21~20120725.145449.3be7fce-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version
+
+ -- Cedric Abunar (cabunar) <cabunar@avencall.com>  Tue, 23 Oct 2012 10:15:51 -0400
+
+pf-xivo (14:12.20~20120725.145449.3be7fce-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove pf-xivo-backup
+
+ -- Cedric abunar (cabunar) <cabunar@avencall.com>  Tue, 23 Oct 2012 09:39:35 -0400
+
+pf-xivo (14:12.20~20120725.145449.3be7fce-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version  
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 09 Oct 2012 15:52:10 -0400
+
+pf-xivo (14:12.19~20120725.145449.3be7fce-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove depends on dahdi 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Thu, 27 Sep 2012 14:03:59 -0400
+
+pf-xivo (14:12.19~20120725.145449.3be7fce-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add xivo-config depends
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 25 Sep 2012 14:52:14 -0400
+
+pf-xivo (14:12.18~20120725.145449.3be7fce-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * upgrade for pf 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Thu, 13 Sep 2012 10:04:22 -0400
+
+pf-xivo (14:12.14~20120709.184155.1f74504-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix generation of XIVO-VERSION.
+
+ -- Etienne Lessard <elessard@avencall.com>  Tue, 17 Jul 2012 12:22:34 -0400
+
+pf-xivo (14:1.2.12~20120709.184155.1f74504-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 09 Jul 2012 14:49:06 -0400
+
+pf-xivo (14:1.2.12~20120706.150228.9868db1-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix mistake 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 06 Jul 2012 14:53:50 -0400
+
+pf-xivo (14:1.2.12~20120706.150228.9868db1-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * rebuild for packaging-farm 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 06 Jul 2012 14:46:39 -0400
+
+pf-xivo (14:1.2.11~20120224.210623.805b856-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-dird 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 18 Jun 2012 16:26:55 -0400
+
+pf-xivo (14:1.2.6~20120224.210623.805b856-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on asterisk-sounds-wav-en-us
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 17 Apr 2012 16:15:26 -0400
+
+pf-xivo (14:1.2.3.1~20120224.210623.805b856-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 29 Feb 2012 13:21:20 -0500
+
+pf-xivo (14:1.2.3~20120224.210623.805b856-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 29 Feb 2012 13:08:17 -0500
+
+pf-xivo (14:1.2.3~20120224.210623.805b856-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix uudi generation 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 27 Feb 2012 10:37:53 -0500
+
+pf-xivo (14:1.2.3~20120224.182212.478aada-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix changelog 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 24 Feb 2012 15:44:11 -0500
+
+pf-xivo (13:1.2.2-1+build6) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version for packaging-farm 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 22 Feb 2012 13:58:35 -0500
+
+pf-xivo (13:1.2~beta-2-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * Add xivo-sounds-en-us to dependencies.
+
+ -- Etienne Lessard <elessard@avencall.com>  Tue, 14 Feb 2012 15:19:54 -0500
+
+pf-xivo (13:1.2~beta-2-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * add depends on xivo-ctid, remove depends on pf-xivo-cti-server 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 12 Dec 2011 15:09:06 -0500
+
+pf-xivo (13:1.2~beta-2-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 09 Dec 2011 14:57:30 -0500
+
+pf-xivo (12:1.2-dev-6) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix depends for xivo-sounds-fr-fr and asterisk-sounds-wav-fr-fr
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 30 Nov 2011 15:47:19 -0500
+
+pf-xivo (12:1.2-dev-5) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version for packaging-farm 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 28 Nov 2011 12:18:10 -0500
+
+pf-xivo (11:squeeze~xivo-skaro-1.2-dev-4) squeeze-xivo-skaro-dev; urgency=low
+
+  * reverse depends on pg-9.0 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 23 Nov 2011 13:50:29 -0500
+
+pf-xivo (11:squeeze~xivo-skaro-1.2-dev-3) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix depends on pg-9.1 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 23 Nov 2011 10:18:45 -0500
+
+pf-xivo (11:squeeze~xivo-skaro-1.2-dev-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix for packaging-farm 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Thu, 17 Nov 2011 13:09:27 -0500
+
+pf-xivo (11:1.2-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * Fix for Packaging farm building.
+
+ -- Sylvain Boily <sboily@proformatique.com>  Mon, 08 Aug 2011 11:59:08 -0400
+
+pf-xivo (10:1.2~11.1) squeeze-xivo-skaro-dev; urgency=low
+
+  * Generate unique uuid at first install in /var/lib/pf-xivo/XIVO-UUID
+
+ -- Guillaume Bour <gbour@proformatique.com>  Tue, 12 Jul 2011 14:27:11 +0200
+
+pf-xivo (10:1.2~11) squeeze-xivo-skaro-dev; urgency=low
+
+  * remove depends on lighttp, replaced by asterisk 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 25 May 2011 15:23:30 +0200
+
+pf-xivo (10:1.2~10) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 18 Mar 2011 16:23:18 +0100
+
+pf-xivo (9:1.2~14) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix version
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 16 Mar 2011 08:03:02 +0100
+
+pf-xivo (9:1.2.0~13) squeeze-xivo-skaro-dev; urgency=low
+
+  * pf-xivo-provd is pf-xivo-provisioning
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 23 Feb 2011 12:59:36 +0100
+
+pf-xivo (9:1.2.0~12) squeeze-xivo-skaro-dev; urgency=low
+
+  * Fix provisioning and dhcp3-server replaced by isc-dhcp-server
+
+ -- Sylvain Boily <sboily@proformatique.com>  Mon, 14 Feb 2011 14:35:51 -0500
+
+pf-xivo (9:1.2.0~11) squeeze-xivo-skaro-dev; urgency=low
+
+  * Removed pf-xivo-provisioning, replaced by pf-xivo-provd
+  * Added pf-xivo-dxtora
+
+ -- Sylvain Boily <sboily@proformatique.com>  Mon, 14 Feb 2011 14:26:37 -0500
+
+pf-xivo (9:1.2.0~10) squeeze-xivo-skaro-dev; urgency=low
+
+  * squeeze port
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Fri, 11 Feb 2011 16:03:35 +0100
+
+pf-xivo (8:1.2.0~8) lenny-xivo-skaro-dev; urgency=low
+
+  * remove depend on pf-stats 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Thu, 13 Jan 2011 15:54:02 +0100
+
+pf-xivo (8:1.2.0~7) lenny-xivo-gallifrey-dev; urgency=low
+
+  * remove depend on pf-asternic, pf-xivo-cti-webclient 
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Thu, 13 Jan 2011 12:23:44 +0100
+
+pf-xivo (7:1.2.0~6) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Revert my mistake
+
+ -- Sylvain Boily <sboily@proformatique.com>  Wed, 18 Aug 2010 14:43:41 -0400
+
+pf-xivo (7:1.2.0~5) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Removed chan sccp for the moment because dont working with asterisk 1.8
+
+ -- Sylvain Boily <sboily@proformatique.com>  Wed, 18 Aug 2010 14:40:15 -0400
+
+pf-xivo (7:1.2.0~4) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Make an error in control file
+
+ -- Sylvain Boily <sboily@proformatique.com>  Wed, 18 Aug 2010 14:34:53 -0400
+
+pf-xivo (7:1.2.0~3) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Removed obsolete dependances
+
+ -- Sylvain Boily <sboily@proformatique.com>  Wed, 18 Aug 2010 14:23:37 -0400
+
+pf-xivo (7:1.2.0~2) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Removed res_config_sqlite and app_fax (included in asterisk 1.6)
+
+ -- Sylvain Boily <sboily@proformatique.com>  Wed, 28 Jul 2010 12:08:42 -0400
+
+pf-xivo (7:1.2.0~1) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Skaro version
+
+ -- Sylvain Boily <sboily@proformatique.com>  Thu, 22 Jul 2010 14:25:45 -0400
+
+pf-xivo (7:1.1.0~rc4+1) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Update Depends for renamed package pf-asterisk-prompt-fr-xivo -> pf-
+    asterisk-prompt-fr-fr-xivo.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 12 Jul 2010 16:12:52 +0200
+
+pf-xivo (7:1.1.0~rc4) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Force correct package version
+
+ -- Guillaume Bour <gbour@proformatique.com>  Wed, 23 Jun 2010 11:42:44 +0200
+
+pf-xivo (6:1.1.0~5) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Force rebuild
+
+ -- Guillaume Bour <gbour@proformatique.com>  Wed, 23 Jun 2010 11:34:55 +0200
+
+pf-xivo (6:1.1.0~4) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Install fr_FR prompts by default.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 15 Jun 2010 15:24:42 +0200
+
+pf-xivo (6:1.1.0~3) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Added asterisk-chan-sccp installed by default.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 26 May 2010 16:36:16 +0200
+
+pf-xivo (4:1.1~7) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Ensure postfix is installed, to be able to send alerts and reports.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 15 Feb 2010 18:06:16 +0100
+
+pf-xivo (4:1.1~6) lenny-xivo-gallifrey-dev; urgency=low
+
+  * lspci is a command, now depends on the proper package for this tool:
+    pciutils.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 03 Feb 2010 12:02:13 +0100
+
+pf-xivo (4:1.1~5) lenny-xivo-gallifrey-dev; urgency=low
+
+  * Upload for lenny-xivo-gallifrey-dev.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 02 Feb 2010 17:59:17 +0100
+
+pf-xivo (4:1.1~4) etch-xivo-gallifrey-dev; urgency=low
+
+  * Forgot to update 'debian/control' after changes in
+    'debian/control.in'.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Thu, 21 Jan 2010 17:24:51 +0100
+
+pf-xivo (4:1.1~3) etch-xivo-gallifrey-dev; urgency=low
+
+  * Added pf-common-2 deps
+
+ -- Sylvain Boily <sboily@proformatique.com>  Thu, 21 Jan 2010 17:03:22 +0100
+
+pf-xivo (4:1.1~1) etch-xivo-gallifrey-dev; urgency=low
+
+  * Rebuilt
+
+ -- Adrien DELLE CAVE (Decryptus) <decryptus@proformatique.com>  Thu,  6 Aug 2009 11:09:03 +0200
+
+pf-xivo (4:1.0~5) etch-xivo-dalek-dev; urgency=low
+
+  * Added nmap to pf-xivo-debug-tools.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 21 Apr 2009 12:19:30 +0200
+
+pf-xivo (4:1.0~3) etch-xivo-dalek-dev; urgency=low
+
+  * Use new pf-asterisk-prompt-fr-xivo package instead of pf-asterisk-
+    prompt-fr.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Fri, 27 Mar 2009 17:25:09 +0100
+
+pf-xivo (3:1.0~1) etch-xivo-dalek-dev; urgency=low
+
+  * Updated with new XiVO logos.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Fri, 20 Mar 2009 17:20:10 +0100
+
+pf-xivo (3:0.4.5~5) etch-xivo-k-9-dev; urgency=low
+
+  * Provides pf-common.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Thu, 19 Mar 2009 11:49:59 +0100
+
+pf-xivo (3:0.4.5~3) etch-xivo-k-9-dev; urgency=low
+
+  * Added depends on pf-monitoring-monit.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 11 Mar 2009 12:45:12 +0100
+
+pf-xivo (3:0.4.5~2) etch-xivo-k-9-dev; urgency=low
+
+  * Removed ALERTS_EMAIL in favor of a config file in pf-xivo-base-
+    config.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 09 Mar 2009 11:09:09 +0100
+
+pf-xivo (3:0.4.5~1) etch-xivo-k-9-dev; urgency=low
+
+  * Added email info for alerts in pf-common subdir.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Thu, 05 Mar 2009 15:56:52 +0100
+
+pf-xivo (3:0.4.4~1) etch-xivo-k-9-dev; urgency=low
+
+  * Replaced 'pf-xivo-phones-firmware' by its successor 'pf-xivo-
+    fetchfw'.
+  * XIVO is 100% Free now, so no more in contrib section.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 02 Mar 2009 18:26:40 +0100
+
+pf-xivo (3:0.4.3~1) etch-xivo-k-9-dev; urgency=low
+
+  * Added new tools in classic installations: screen, molly-guard.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 26 Jan 2009 16:27:29 +0100
+
+pf-xivo (3:0.4.2~2) etch-xivo-k-9-dev; urgency=low
+
+  * Conflicts against sangoma-wanpipe-firmwares, which is obsolete and
+    non-free (use xivo_fetchfw now).
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 06 Jan 2009 12:03:35 +0100
+
+pf-xivo (3:0.4.2~1) etch-xivo-k-9-dev; urgency=low
+
+  * Added pf-asterisk-app-nv-faxdetect.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 05 Jan 2009 16:00:23 +0100
+
+pf-xivo (3:0.4~36) etch-xivo-k-9-dev; urgency=low
+
+  * Removed obsolete deps on pf-xivo-cti-pushagi and pf-xivo-agi.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 03 Dec 2008 15:56:35 +0100
+
+pf-xivo (3:0.4~35) etch-xivo-k-9-dev; urgency=low
+
+  * Remove revision due to mistake in Nono.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 02 Dec 2008 19:39:41 +0100
+
+pf-xivo (1:0.4~34) etch-xivo-k-9-dev; urgency=low
+
+  * Uninstall pf-asterisk-app-devstate which is obsolete.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 02 Dec 2008 11:56:58 +0100
+
+pf-xivo (1:0.4~33) etch-xivo-k-9-dev; urgency=low
+
+  * Added stats to standard installation.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 18 Nov 2008 15:09:39 +0100
+
+pf-xivo (1:0.4~32) etch-xivo-k-9-dev; urgency=low
+
+  * Added standard product logos and product name.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 17 Nov 2008 16:04:38 +0100
+
+pf-xivo (0.4~30) etch-xivo-k-9-dev; urgency=low
+
+  * Switched to Asterisk+DAHDI.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 22 Oct 2008 12:10:30 +0200
+
+pf-xivo (0.4~29) etch-xivo-k-9-dev; urgency=low
+
+  * Added lspci and bc in pf-xivo-debug-tools metapackage.
+
+ -- Corentin Le Gall <clegall@proformatique.com>  Mon,  8 Sep 2008 18:52:00 +0200
+
+pf-xivo (0.4~28) etch-xivo-k-9-dev; urgency=low
+
+  * Replaced all occurrences to Xivo by XIVO in copyright file.
+
+ -- Adrien DELLE CAVE (Decryptus) <decryptus@proformatique.com>  Wed, 23 Jul 2008 00:32:37 +0200
+
+pf-xivo (0.4~26) etch-xivo-k-9-dev; urgency=low
+
+  * Changed all references to pf-asterisk-func-strsubst to
+    pf-asterisk-module-xivo.
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Mon, 21 Jul 2008 20:21:56 +0200
+
+pf-xivo (0.4~25) etch-xivo-k-9-dev; urgency=low
+
+  * Removed app_devstate dependency and updated versions of Asterisk and
+    Zaptel
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Thu, 10 Jul 2008 02:50:26 +0200
+
+pf-xivo (0.4~24) etch-xivo-k-9-dev; urgency=low
+
+  * Remove depends on atftpd and remove suggest of asterisk-chan-misdn
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Fri, 27 Jun 2008 12:26:16 +0200
+
+pf-xivo (0.4~23) etch-xivo-k-9-dev; urgency=low
+
+  * Depends on new package pf-xivo-agid
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Sat, 24 May 2008 02:33:46 +0200
+
+pf-xivo (0.4~22) etch-xivo-k-9-dev; urgency=low
+
+  * Install pf-asterisk-app-fax by default until the web interface is
+    modularized.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 22 May 2008 18:44:25 +0200
+
+pf-xivo (0.4~21) etch-xivo-k-9-dev; urgency=low
+
+  * Added depends for pf-xivo on pf-asterisk-ami-aoriginate. 
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Sat, 19 Jan 2008 03:41:57 +0100
+
+pf-xivo (0.4~20) etch-xivo-k-9-dev; urgency=low
+
+  * Moved depends for pf-xivo on asterisk-moh-nonfree in recommends
+
+ -- Adrien DELLE CAVE (Decryptus) <decryptus@proformatique.com>  Fri, 18 Jan 2008 15:14:31 +0100
+
+pf-xivo (0.4~19) etch-xivo-k-9-dev; urgency=low
+
+  * Added depends for pf-xivo on pf-asterisk-module-xivo, which contains the
+    STRSUBST() DialPlan Function and the SetOne() DialPlan Application, that
+    will replace in K-9 an AGI call performing a simple string subst.
+
+ -- Guillaume Knispel <gknispel@proformatique.com>  Tue, 15 Jan 2008 15:35:21 +0100
+
+pf-xivo (0.3.8~3) etch-xivo-tardis-dev; urgency=low
+
+  * Enforced less-buggy asterisk+zaptel couple versions.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 17 Apr 2008 19:17:24 +0200
+
+pf-xivo (0.3~18) etch-xivo-tardis-dev; urgency=low
+
+  * Added depends for pf-xivo on pf-asterisk-app-devstate (for
+    boss/secretary filtering) and asterisk-moh-nonfree (for default MOH
+    sound files).
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 09 Jan 2008 12:02:10 +0100
+
+pf-xivo (0.3~17) etch-xivo-tardis-dev; urgency=low
+
+  * Port modification from etch-xivo-torchwood
+    - Moved XIVO-VERSION file installation from pf-xivo-base-config to
+      this package (no name conflict).
+
+ -- Adrien DELLE CAVE (Decryptus) <decryptus@proformatique.com>  Mon,  3 Dec 2007 13:35:52 +0100
+
+pf-xivo (0.2~16) etch; urgency=low
+
+  * Moved pf-asterisk-res-watchdog to Recommends.
+  * Moved many packages so Suggests to have a proper basic installation.
+  * Removed any reference to kernel modules, this is not the right place
+    for this.
+  * Added telnet and ngrep to debug tools.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Wed, 14 Nov 2007 18:30:41 +0100
+
+pf-xivo (0.2~15) etch; urgency=low
+
+  * AUTOBUILDER TEST.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue, 23 Oct 2007 19:35:12 +0200
+
+pf-xivo (0.1~14) etch; urgency=low
+
+  * Increase kernel number for modules.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 20 Aug 2007 17:29:27 +0200
+
+pf-xivo (0.1~13) etch; urgency=low
+
+  * Added capiutils to pf-xivo-debug-tools.
+  * Moved service restart from pf-xivo-base-config.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 20 Aug 2007 16:22:58 +0200
+
+pf-xivo (0.1~12) etch; urgency=low
+
+  * Updates Depends on kernel modules in order to suggest proper
+    defaults for XIVO.
+  * Added misdn-utils to debug tools.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 24 Jul 2007 14:30:44 +0200
+
+pf-xivo (0.1~11) etch; urgency=low
+
+  * Temporarily added pf-config to drag it in old installations.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 23 Jul 2007 23:07:29 +0200
+
+pf-xivo (0.1~10) etch; urgency=low
+
+  * Added zaptel-modules and misdn-modules to dependencies.
+  * Updated dependencies versions.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 23 Jul 2007 19:59:54 +0200
+
+pf-xivo (0.1~9) etch; urgency=low
+
+  * Added asterisk-chan-misdn dependency.
+  * Updated dependencies versions.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 23 Jul 2007 18:46:39 +0200
+
+pf-xivo (0.1~8) etch; urgency=low
+
+  * Added pf-xivo-debug-tools binary package.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Thu, 05 Jul 2007 19:16:56 +0200
+
+pf-xivo (0.1~7) etch; urgency=low
+
+  * Added libtiff-tools and sox dependencies.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Fri, 15 Jun 2007 18:34:04 +0200
+
+pf-xivo (0.1~6) etch; urgency=low
+
+  * Added pf-xivo-phones-firmware and pf-xivo-provisioning dependencies.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Tue, 22 May 2007 17:47:25 +0200
+
+pf-xivo (0.1~5) etch; urgency=low
+
+  * Added depends on pf-xivo-agi.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 16 May 2007 15:34:52 +0200
+
+pf-xivo (0.1~4) etch; urgency=low
+
+  * _Really_ updated dependencies.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 16 May 2007 15:11:33 +0200
+
+pf-xivo (0.1~3) etch; urgency=low
+
+  * Package should be archall.
+  * fixed typo in description.
+  * Updated dependencies.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Mon, 07 May 2007 19:32:25 +0200
+
+pf-xivo (0.1~2) etch; urgency=low
+
+  * Added missing dependency on pf-xivo-base-config , zaptel, and
+    madplay.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Wed, 02 May 2007 22:10:55 +0200
+
+pf-xivo (0.1~1) etch; urgency=low
+
+  * dependency package for Proformatique XIVO Telephony solution.
+
+ -- Marc Dequènes (Duck) <mdequenes@proformatique.com>  Fri, 27 Apr 2007 18:44:41 +0200
+

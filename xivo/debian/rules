@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+XIVO-VERSION=$(shell dpkg-parsechangelog  | grep "^Version:" | grep -oE "[0-9]{2}\.[0-9]+" | head -n1)
+
+binary-install/xivo::
+	echo "$(XIVO-VERSION)" >debian/$(cdbs_curpkg)/usr/share/$(cdbs_curpkg)/XIVO-VERSION
+
