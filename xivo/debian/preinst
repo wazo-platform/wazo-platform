@@ -6,7 +6,6 @@ case "$1" in
 	install)
 		echo startup=no > /etc/default/xivo
 		invoke-rc.d dahdi restart
-		/usr/sbin/dahdi_genconf
 	;;
 	upgrade)
 	;;
