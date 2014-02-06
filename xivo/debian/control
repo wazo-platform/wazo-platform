@@ -51,7 +51,6 @@ Depends:
     xivo-stat,
     xivo-upgrade,
     xivo-web-interface,
-Recommends: pf-asterisk-res-watchdog
 Suggests: capiutils, asterisk-chan-capi
 Provides: pf-common-2, pf-xivo
 Replaces: pf-xivo
