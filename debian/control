@@ -2,7 +2,7 @@ Source: xivo
 Section: comm
 Priority: extra
 Maintainer: XiVO Dev Team <dev@avencall.com>
-Uploaders: XiVO Builder Team <release@xivo.fr>
+Uploaders: XiVO Builder Team <release@xivo.io>
 Build-Depends: cdbs, debhelper
 Standards-Version: 3.7.2.2
 
@@ -61,7 +61,7 @@ Description: XIVO complete telephony solution
  .
  This meta package is used to install the full XIVO system.
  .
-  Homepage: http://xivo.fr/
+  Homepage: http://xivo.io/
 
 Package: xivo-debug-tools
 Architecture: all
@@ -76,5 +76,5 @@ Description: XIVO complete telephony solution -- debug tools
  This meta package is used to install selected tools to debug
  the XIVO system
  .
-  Homepage: http://xivo.fr/
+  Homepage: http://xivo.io/
 
