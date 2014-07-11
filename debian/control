@@ -45,8 +45,8 @@ Depends:
     xivo-manage-db,
     xivo-monitoring,
     xivo-provd,
+    xivo-res-freeze-check,
     xivo-restapi,
-    xivo-res-freeze-check
     xivo-sounds-en-us,
     xivo-sounds-fr-fr,
     xivo-stat,
