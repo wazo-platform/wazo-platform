@@ -39,6 +39,7 @@ Depends:
     xivo-confgend,
     xivo-config,
     xivo-ctid,
+    xivo-dird,
     xivo-dxtora,
     xivo-fetchfw,
     xivo-keyring,
