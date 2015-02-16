@@ -35,7 +35,7 @@ Depends:
     xivo-backup,
     xivo-call-logs,
     xivo-confd,
-    xivo-confgen,
+    xivo-confgend-client,
     xivo-confgend,
     xivo-config,
     xivo-ctid,
