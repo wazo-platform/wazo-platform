@@ -41,6 +41,7 @@ Depends:
     xivo-ctid,
     xivo-dird,
     xivo-dxtora,
+    xivo-dxtorc,
     xivo-fetchfw,
     xivo-keyring,
     xivo-libsccp,
