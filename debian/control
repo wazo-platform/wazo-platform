@@ -30,6 +30,7 @@ Depends:
     uuid-runtime,
     vlan,
     xivo-agent,
+    xivo-agentdctl,
     xivo-agid,
     xivo-amid,
     xivo-backup,
