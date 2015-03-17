@@ -29,7 +29,7 @@ Depends:
     sox,
     uuid-runtime,
     vlan,
-    xivo-agentd,
+    xivo-agent,
     xivo-agentdctl,
     xivo-agid,
     xivo-amid,
