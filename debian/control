@@ -57,6 +57,7 @@ Depends:
     xivo-stat,
     xivo-upgrade,
     xivo-web-interface,
+    xivo-swagger-doc,
 Provides: pf-common-2, pf-xivo
 Replaces: pf-xivo
 Conflicts: pf-asterisk-app-devstate, sangoma-wanpipe-firmwares, pf-common, pf-common-2, postgresql-plpython-9.0, pf-xivo
