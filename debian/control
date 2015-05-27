@@ -34,6 +34,7 @@ Depends:
     xivo-agentd-cli,
     xivo-agid,
     xivo-amid,
+    xivo-auth,
     xivo-backup,
     xivo-call-logs,
     xivo-confd,
