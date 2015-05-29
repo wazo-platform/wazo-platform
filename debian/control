@@ -56,8 +56,9 @@ Depends:
     xivo-sounds-en-us,
     xivo-sounds-fr-fr,
     xivo-stat,
+    xivo-swagger-doc,
     xivo-upgrade,
-    xivo-web-interface,
+    xivo-web-interface
 Provides: pf-common-2, pf-xivo
 Replaces: pf-xivo
 Conflicts: pf-asterisk-app-devstate, sangoma-wanpipe-firmwares, pf-common, pf-common-2, postgresql-plpython-9.0, pf-xivo
