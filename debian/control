@@ -57,6 +57,7 @@ Depends:
     xivo-sounds-en-us,
     xivo-sounds-fr-fr,
     xivo-stat,
+    xivo-sync,
     xivo-swagger-doc,
     xivo-upgrade,
     xivo-web-interface
