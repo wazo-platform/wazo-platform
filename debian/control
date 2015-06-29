@@ -58,6 +58,7 @@ Depends:
     xivo-sounds-fr-fr,
     xivo-stat,
     xivo-swagger-doc,
+    xivo-sync,
     xivo-upgrade,
     xivo-web-interface
 Provides: pf-common-2, pf-xivo
