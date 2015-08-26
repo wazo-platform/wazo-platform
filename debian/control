@@ -44,6 +44,7 @@ Depends:
     xivo-config,
     xivo-ctid,
     xivo-dird,
+    xivo-dird-phoned,
     xivo-dxtora,
     xivo-dxtorc,
     xivo-fetchfw,
