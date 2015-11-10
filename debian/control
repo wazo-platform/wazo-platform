@@ -51,6 +51,7 @@ Depends:
     xivo-keyring,
     xivo-libsccp,
     xivo-manage-db,
+    xivo-manage-tokens,
     xivo-monitoring,
     xivo-provd,
     xivo-provd-cli,
