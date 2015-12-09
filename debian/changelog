@@ -1,4 +1,4 @@
-xivo (14:14.01~20140110.164911.03a9dcd-wheezy-5) xivo-dev; urgency=low
+xivo (14:14.01~20140110.164911.03a9dcd) xivo-dev; urgency=low
 
   * handle upgrade command in preinst
 
