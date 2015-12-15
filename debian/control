@@ -22,8 +22,6 @@ Depends:
     mutt,
     ntp,
     postfix,
-    postgresql,
-    postgresql-plpython,
     rabbitmq-server,
     rsync,
     screen,
