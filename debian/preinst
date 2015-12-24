@@ -4,7 +4,7 @@ set -e
 
 case "$1" in
 	install)
-		echo startup=no > /etc/default/xivo
+		touch /var/lib/xivo/disabled
 	;;
 	upgrade)
 	;;
