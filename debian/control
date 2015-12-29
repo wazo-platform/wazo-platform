@@ -55,6 +55,7 @@ Depends:
     xivo-provd-cli,
     xivo-purge-db,
     xivo-res-freeze-check,
+    xivo-service,
     xivo-sounds-en-us,
     xivo-sounds-fr-fr,
     xivo-stat,
