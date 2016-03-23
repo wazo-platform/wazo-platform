@@ -61,6 +61,7 @@ Depends:
     xivo-stat,
     xivo-swagger-doc,
     xivo-sync,
+    xivo-sysconfd,
     xivo-upgrade,
     xivo-websocketd
 Recommends: xivo-web-interface
