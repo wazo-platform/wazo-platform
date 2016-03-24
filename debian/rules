@@ -1,10 +1,8 @@
 #!/usr/bin/make -f
 
-XIVO-VERSION=$(shell dpkg-parsechangelog  | grep "^Version:" | grep -oE "[0-9]{2}\.[0-9]+" | head -n1)
-
 %:
 	dh $@
 
 override_dh_install:
-	echo "$(XIVO-VERSION)" >debian/xivo/usr/share/xivo/XIVO-VERSION
+	install -D -m 644 VERSION debian/xivo/usr/share/xivo/XIVO-VERSION
 	dh_install
