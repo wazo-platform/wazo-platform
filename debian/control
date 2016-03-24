@@ -77,10 +77,10 @@ Depends:
     xivo-sysconfd,
     xivo-upgrade,
     xivo-websocketd
-Provides: pf-common-2, pf-xivo
+Provides: pf-xivo
 Replaces: pf-xivo, xivo (<< 14:16.04~20160324)
 Breaks: xivo (<< 14:16.04~20160324)
-Conflicts: pf-asterisk-app-devstate, sangoma-wanpipe-firmwares, pf-common, pf-common-2, postgresql-plpython-9.0, pf-xivo
+Conflicts: postgresql-plpython-9.0, pf-xivo
 Description: XIVO complete telephony solution - base system
  XIVO is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
