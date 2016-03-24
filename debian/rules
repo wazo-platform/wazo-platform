@@ -4,5 +4,5 @@
 	dh $@
 
 override_dh_install:
-	install -D -m 644 VERSION debian/xivo/usr/share/xivo/XIVO-VERSION
+	install -D -m 644 VERSION debian/xivo-base/usr/share/xivo/XIVO-VERSION
 	dh_install
