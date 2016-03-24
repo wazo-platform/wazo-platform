@@ -13,6 +13,9 @@ Depends:
     screen,
     xivo-base (= ${binary:Version}),
     xivo-web-interface
+Provides: pf-xivo
+Replaces: pf-xivo
+Conflicts: postgresql-plpython-9.0, pf-xivo
 Description: XIVO complete telephony solution
  XIVO is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
@@ -77,10 +80,8 @@ Depends:
     xivo-sysconfd,
     xivo-upgrade,
     xivo-websocketd
-Provides: pf-xivo
-Replaces: pf-xivo, xivo (<< 14:16.04~20160324)
+Replaces: xivo (<< 14:16.04~20160324)
 Breaks: xivo (<< 14:16.04~20160324)
-Conflicts: postgresql-plpython-9.0, pf-xivo
 Description: XIVO complete telephony solution - base system
  XIVO is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
