@@ -9,6 +9,24 @@ Standards-Version: 3.9.5
 Package: xivo
 Architecture: all
 Depends:
+    molly-guard,
+    screen,
+    xivo-base (= ${binary:Version}),
+    xivo-web-interface
+Provides: pf-xivo
+Replaces: pf-xivo
+Conflicts: postgresql-plpython-9.0, pf-xivo
+Description: XIVO complete telephony solution
+ XIVO is a system based on a powerful IPBX, to bring an easy to
+ install solution for telephony and related services.
+ .
+ This meta package is used to install the full XIVO system.
+ .
+  Homepage: http://xivo.io/
+
+Package: xivo-base
+Architecture: all
+Depends:
     asterisk (>= 11.6.0),
     asterisk-sounds-main,
     asterisk-sounds-wav-en-us,
@@ -18,13 +36,11 @@ Depends:
     isc-dhcp-server,
     libtiff-tools,
     madplay,
-    molly-guard,
     mutt,
     ntp,
     postfix,
     rabbitmq-server,
     rsync,
-    screen,
     sox,
     uuid-runtime,
     vlan,
@@ -64,15 +80,14 @@ Depends:
     xivo-sysconfd,
     xivo-upgrade,
     xivo-websocketd
-Recommends: xivo-web-interface
-Provides: pf-common-2, pf-xivo
-Replaces: pf-xivo
-Conflicts: pf-asterisk-app-devstate, sangoma-wanpipe-firmwares, pf-common, pf-common-2, postgresql-plpython-9.0, pf-xivo
-Description: XIVO complete telephony solution
+Replaces: xivo (<< 14:16.04~20160324)
+Breaks: xivo (<< 14:16.04~20160324)
+Description: XIVO complete telephony solution - base system
  XIVO is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
  .
- This meta package is used to install the full XIVO system.
+ This meta package is used to install all the necessary components of a
+ minimal XIVO system. For a full XIVO installation, install "xivo".
  .
   Homepage: http://xivo.io/
 
