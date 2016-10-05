@@ -67,6 +67,7 @@ Depends:
     xivo-libsccp,
     xivo-manage-db,
     xivo-monitoring,
+    xivo-nginx,
     xivo-provd,
     xivo-provd-cli,
     xivo-purge-db,
