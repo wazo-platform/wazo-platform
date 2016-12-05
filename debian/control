@@ -1,10 +1,9 @@
 Source: xivo
 Section: comm
 Priority: extra
-Maintainer: XiVO Dev Team <dev@avencall.com>
-Uploaders: XiVO Builder Team <release@xivo.io>
+Maintainer: Wazo Maintainers <dev.wazo@gmail.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 
 Package: xivo
 Architecture: all
@@ -16,13 +15,12 @@ Depends:
 Provides: pf-xivo
 Replaces: pf-xivo
 Conflicts: postgresql-plpython-9.0, pf-xivo
-Description: XIVO complete telephony solution
- XIVO is a system based on a powerful IPBX, to bring an easy to
+Description: Wazo complete telephony solution
+ Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
  .
- This meta package is used to install the full XIVO system.
+ This meta package is used to install the full Wazo system.
  .
-  Homepage: http://xivo.io/
 
 Package: xivo-base
 Architecture: all
@@ -83,14 +81,12 @@ Depends:
     xivo-websocketd
 Replaces: xivo (<< 14:16.04~20160324)
 Breaks: xivo (<< 14:16.04~20160324)
-Description: XIVO complete telephony solution - base system
- XIVO is a system based on a powerful IPBX, to bring an easy to
+Description: Wazo complete telephony solution - base system
+ Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
  .
  This meta package is used to install all the necessary components of a
- minimal XIVO system. For a full XIVO installation, install "xivo".
- .
-  Homepage: http://xivo.io/
+ minimal Wazo system. For a full Wazo installation, install "xivo".
 
 Package: xivo-debug-tools
 Architecture: all
@@ -98,12 +94,9 @@ Depends: file, man-db, manpages-dev, strace, ltrace, gdb, tshark, netcat, php5-c
 Provides: pf-xivo-debug-tools
 Replaces: pf-xivo-debug-tools
 Conflicts: pf-xivo-debug-tools
-Description: XIVO complete telephony solution -- debug tools
- XIVO is a system based on a powerful IPBX, to bring an easy to
+Description: Wazo complete telephony solution -- debug tools
+ Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
  .
  This meta package is used to install selected tools to debug
- the XIVO system
- .
-  Homepage: http://xivo.io/
-
+ the Wazo system
