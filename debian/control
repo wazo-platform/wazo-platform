@@ -1,7 +1,7 @@
 Source: xivo
 Section: comm
 Priority: extra
-Maintainer: Wazo Maintainers <dev.wazo@gmail.com>
+Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
@@ -43,6 +43,7 @@ Depends:
     sox,
     uuid-runtime,
     vlan,
+    wazo-plugind,
     xivo-agentd,
     xivo-agentd-cli,
     xivo-agid,
