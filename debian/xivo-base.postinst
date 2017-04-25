@@ -16,6 +16,7 @@ case "$1" in
             rsync -av /usr/share/xivo-config/templates/provd/etc/pf-xivo/ /usr/share/xivo-config/templates/provd/etc/xivo/
             rm -rf /usr/share/xivo-config/templates/provd/etc/pf-xivo
         fi
+        ln -nsf wazo /etc/dpkg/origins/default
 	;;
 	abort-upgrade|abort-remove|abort-deconfigure)
 
