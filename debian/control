@@ -46,6 +46,7 @@ Depends:
     vlan,
     wazo-plugind,
     wazo-service,
+    wazo-webhookd,
     xivo-agentd,
     xivo-agentd-cli,
     xivo-agid,
