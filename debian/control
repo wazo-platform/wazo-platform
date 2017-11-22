@@ -27,7 +27,7 @@ Description: Wazo complete telephony solution
 Package: xivo-base
 Architecture: all
 Depends:
-    asterisk (>= 11.6.0),
+    asterisk (>= 11.6.0) | asterisk-virtual,
     asterisk-sounds-main,
     asterisk-sounds-wav-en-us,
     asterisk-sounds-wav-fr-fr,
