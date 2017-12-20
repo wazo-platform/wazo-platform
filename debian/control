@@ -45,6 +45,7 @@ Depends:
     uuid-runtime,
     vlan,
     wazo-auth,
+    wazo-auth-cli,
     wazo-call-logd,
     wazo-plugind,
     wazo-plugind-client-python3,
