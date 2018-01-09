@@ -94,16 +94,3 @@ Description: Wazo complete telephony solution - base system
  .
  This meta package is used to install all the necessary components of a
  minimal Wazo system. For a full Wazo installation, install "xivo".
-
-Package: xivo-debug-tools
-Architecture: all
-Depends: file, man-db, manpages-dev, strace, ltrace, gdb, tshark, netcat, php5-cli, telnet, ngrep, pciutils, bc, nmap, binutils, lsof, build-essential
-Provides: pf-xivo-debug-tools
-Replaces: pf-xivo-debug-tools
-Conflicts: pf-xivo-debug-tools
-Description: Wazo complete telephony solution -- debug tools
- Wazo is a system based on a powerful IPBX, to bring an easy to
- install solution for telephony and related services.
- .
- This meta package is used to install selected tools to debug
- the Wazo system
