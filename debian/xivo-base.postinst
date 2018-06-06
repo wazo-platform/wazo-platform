@@ -4,18 +4,6 @@ set -e
 
 case "$1" in
 	configure)
-        if [ -d /var/lib/pf-xivo ]; then
-            rsync -av /var/lib/pf-xivo/ /var/lib/xivo/
-            rm -rf /var/lib/pf-xivo
-        fi
-        if [ -d /usr/share/pf-xivo ]; then
-            rsync -av /usr/share/pf-xivo/ /usr/share/xivo/
-            rm -rf /usr/share/pf-xivo
-        fi
-        if [ -d /usr/share/xivo-config/templates/provd/etc/pf-xivo ]; then
-            rsync -av /usr/share/xivo-config/templates/provd/etc/pf-xivo/ /usr/share/xivo-config/templates/provd/etc/xivo/
-            rm -rf /usr/share/xivo-config/templates/provd/etc/pf-xivo
-        fi
         ln -nsf wazo /etc/dpkg/origins/default
 	;;
 	abort-upgrade|abort-remove|abort-deconfigure)
