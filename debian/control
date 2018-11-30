@@ -10,8 +10,6 @@ Architecture: all
 Depends:
     molly-guard,
     screen,
-    wazo-admin-ui,
-    wazo-admin-ui-market,
     xivo-base (= ${binary:Version}),
     xivo-web-interface
 Provides: pf-xivo
