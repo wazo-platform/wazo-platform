@@ -50,6 +50,7 @@ Depends:
     wazo-libsccp,
     wazo-plugind,
     wazo-plugind-client-python3,
+    wazo-provd-client-python3,
     wazo-service,
     wazo-webhookd,
     xivo-agentd,
