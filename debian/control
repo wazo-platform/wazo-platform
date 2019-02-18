@@ -35,7 +35,7 @@ Depends:
     libtiff-tools,
     madplay,
     mutt,
-    ntp | time-daemon,
+    ntp,
     postfix,
     rabbitmq-server,
     rsync,
