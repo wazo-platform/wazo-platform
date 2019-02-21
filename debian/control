@@ -46,6 +46,7 @@ Depends:
     wazo-auth-cli,
     wazo-auth-keys,
     wazo-call-logd,
+    wazo-chatd,
     wazo-dird,
     wazo-libsccp,
     wazo-plugind,
