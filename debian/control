@@ -64,7 +64,6 @@ Depends:
     xivo-confgend,
     xivo-confgend-client,
     xivo-config,
-    xivo-ctid,
     xivo-ctid-ng,
     xivo-dird-phoned,
     xivo-dxtora,
