@@ -10,8 +10,7 @@ Architecture: all
 Depends:
     molly-guard,
     screen,
-    xivo-base (= ${binary:Version}),
-    xivo-web-interface
+    xivo-base (= ${binary:Version})
 Provides: pf-xivo
 Replaces: pf-xivo
 Conflicts: postgresql-plpython-9.0, pf-xivo
