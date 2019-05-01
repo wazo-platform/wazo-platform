@@ -63,7 +63,7 @@ Depends:
     xivo-confgend,
     xivo-confgend-client,
     xivo-config,
-    xivo-ctid-ng,
+    wazo-calld,
     xivo-dird-phoned,
     xivo-dxtora,
     xivo-dxtorc,
