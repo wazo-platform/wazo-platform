@@ -11,9 +11,6 @@ Depends:
     molly-guard,
     screen,
     xivo-base (= ${binary:Version})
-Provides: pf-xivo
-Replaces: pf-xivo
-Conflicts: postgresql-plpython-9.0, pf-xivo
 Description: Wazo complete telephony solution
  Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
@@ -84,8 +81,6 @@ Depends:
     xivo-sync,
     xivo-sysconfd,
     xivo-upgrade
-Replaces: xivo (<< 14:16.04~20160324)
-Breaks: xivo (<< 14:16.04~20160324)
 Description: Wazo complete telephony solution - base system
  Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
