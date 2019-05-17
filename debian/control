@@ -53,6 +53,7 @@ Depends:
     wazo-provd-client-python3,
     wazo-service,
     wazo-webhookd,
+    wazo-websocketd,
     xivo-agentd,
     xivo-agentd-cli,
     xivo-agid,
@@ -82,8 +83,7 @@ Depends:
     xivo-swagger-doc,
     xivo-sync,
     xivo-sysconfd,
-    xivo-upgrade,
-    xivo-websocketd
+    xivo-upgrade
 Replaces: xivo (<< 14:16.04~20160324)
 Breaks: xivo (<< 14:16.04~20160324)
 Description: Wazo complete telephony solution - base system
