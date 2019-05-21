@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 set -e
 
@@ -11,7 +11,7 @@ case "$1" in
             if [ -f /var/lib/xivo/disabled ] ; then
                 cp -f /var/lib/xivo/disabled /var/lib/wazo/disabled
             fi
-            if [ -f /var/lib/xivo/sounds ] ; then
+            if [ -d /var/lib/xivo/sounds ] ; then
                 mv -f /var/lib/xivo/sounds /var/lib/wazo/sounds
             fi
         fi
