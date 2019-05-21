@@ -1,3 +1,9 @@
+wazo-platform (19.08) wazo-platform; urgency=medium
+
+  * rename xivo and xivo-base to wazo-platform
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Mon, 20 May 2019 09:31:09 -0400
+
 xivo (14:14.01~20140110.164911.03a9dcd) xivo-dev; urgency=low
 
   * handle upgrade command in preinst

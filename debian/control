@@ -1,24 +1,11 @@
-Source: xivo
+Source: wazo-platform
 Section: comm
 Priority: extra
 Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
-Package: xivo
-Architecture: all
-Depends:
-    molly-guard,
-    screen,
-    xivo-base (= ${binary:Version})
-Description: Wazo complete telephony solution
- Wazo is a system based on a powerful IPBX, to bring an easy to
- install solution for telephony and related services.
- .
- This meta package is used to install the full Wazo system.
- .
-
-Package: xivo-base
+Package: wazo-platform
 Architecture: all
 Depends:
     asterisk (>= 11.6.0) | asterisk-virtual,
@@ -30,11 +17,13 @@ Depends:
     isc-dhcp-server,
     libtiff-tools,
     madplay,
+    molly-guard,
     mutt,
     ntp,
     postfix,
     rabbitmq-server,
     rsync,
+    screen,
     sox,
     uuid-runtime,
     vlan,
@@ -43,6 +32,7 @@ Depends:
     wazo-auth-client-python3,
     wazo-auth-keys,
     wazo-call-logd,
+    wazo-calld,
     wazo-chatd,
     wazo-dird,
     wazo-dird-phoned,
@@ -62,7 +52,6 @@ Depends:
     xivo-confgend,
     xivo-confgend-client,
     xivo-config,
-    wazo-calld,
     xivo-dxtora,
     xivo-dxtorc,
     xivo-fetchfw,
@@ -81,9 +70,12 @@ Depends:
     xivo-sync,
     xivo-sysconfd,
     xivo-upgrade
+Provides: xivo, xivo-base
+Replaces: xivo, xivo-base
+Conflicts: xivo, xivo-base
 Description: Wazo complete telephony solution - base system
  Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
  .
- This meta package is used to install all the necessary components of a
- minimal Wazo system. For a full Wazo installation, install "xivo".
+ This meta package is used to install the full Wazo system.
+ .
