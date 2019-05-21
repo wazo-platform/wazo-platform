@@ -4,5 +4,5 @@
 	dh $@
 
 override_dh_install:
-	install -D -m 644 VERSION debian/wazo-platform/usr/share/xivo/WAZO-VERSION
+	install -D -m 644 VERSION debian/wazo-platform/usr/share/wazo/WAZO-VERSION
 	dh_install
