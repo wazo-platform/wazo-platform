@@ -12,6 +12,7 @@ Depends:
     asterisk-sounds-main,
     asterisk-sounds-wav-en-us,
     asterisk-sounds-wav-fr-fr,
+    python-certbot-nginx,
     consul,
     fail2ban,
     isc-dhcp-server,
