@@ -39,6 +39,7 @@ Depends:
     wazo-dird-phoned,
     wazo-libsccp,
     wazo-plugind,
+    wazo-confd-client-python3,
     wazo-plugind-client-python3,
     wazo-provd-client-python3,
     wazo-service,
