@@ -45,7 +45,7 @@ Depends:
     wazo-plugind,
     wazo-plugind-client-python3,
     wazo-provd-client-python3,
-    wazp-purge-db,
+    wazo-purge-db,
     wazo-service,
     wazo-webhookd,
     wazo-websocketd,
