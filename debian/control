@@ -42,7 +42,6 @@ Depends:
     wazo-confd,
     wazo-confd-client-python3,
     wazo-dird,
-    wazo-dist-upgrade,
     wazo-libsccp,
     wazo-nginx,
     wazo-phoned,
