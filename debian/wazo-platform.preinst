@@ -4,7 +4,7 @@ set -e
 
 case "$1" in
 	install)
-		touch /var/lib/xivo/disabled
+		touch /var/lib/wazo/disabled
 	;;
 	upgrade)
 	;;
