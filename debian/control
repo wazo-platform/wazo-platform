@@ -53,6 +53,7 @@ Depends:
     wazo-provd-client-python3,
     wazo-purge-db,
     wazo-service,
+    wazo-upgrade
     wazo-webhookd,
     wazo-websocketd,
     xivo-backup,
@@ -72,7 +73,6 @@ Depends:
     xivo-swagger-doc,
     xivo-sync,
     xivo-sysconfd,
-    xivo-upgrade
 Provides: xivo, xivo-base
 Replaces: xivo, xivo-base
 Conflicts: xivo, xivo-base
