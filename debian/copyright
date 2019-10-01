@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: wazo-platform
-Source: https://github.com/wazo-pbx/wazo-platform.git
+Source: https://github.com/wazo-platform/wazo-platform.git
 
 Files: *
 Copyright: 2006-2019 The Wazo Authors
