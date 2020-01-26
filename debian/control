@@ -82,3 +82,81 @@ Description: Wazo complete telephony solution - base system
  .
  This meta package is used to install the full Wazo system.
  .
+
+Package: wazo-platform-test
+Architecture: all
+Depends:
+    asterisk (>= 11.6.0) | asterisk-virtual,
+    asterisk-sounds-main,
+    asterisk-sounds-wav-en-us,
+    asterisk-sounds-wav-fr-fr,
+    fail2ban,
+    isc-dhcp-server,
+    libtiff-tools,
+    madplay,
+    molly-guard,
+    mutt,
+    ntp,
+    postfix,
+    python-certbot-nginx,
+    rabbitmq-server,
+    rsync,
+    screen,
+    sox,
+    uuid-runtime,
+    vlan,
+    wazo-agentd,
+    wazo-agentd-cli,
+    wazo-agid,
+    wazo-amid,
+    wazo-auth,
+    wazo-auth-cli,
+    wazo-auth-client-python3,
+    wazo-auth-keys,
+    wazo-call-logd,
+    wazo-calld,
+    wazo-consul-config,
+    wazo-chatd,
+    wazo-confd,
+    wazo-confd-client-python3,
+    wazo-confgend,
+    wazo-confgend-client,
+    wazo-dird,
+    wazo-dist-upgrade,
+    wazo-dxtora,
+    wazo-dxtorc,
+    wazo-libsccp,
+    wazo-nginx,
+    wazo-phoned,
+    wazo-plugind,
+    wazo-plugind-client-python3,
+    wazo-provd,
+    wazo-provd-cli,
+    wazo-provd-client-python3,
+    wazo-purge-db,
+    wazo-service,
+    wazo-upgrade,
+    wazo-webhookd,
+    wazo-websocketd,
+    xivo-backup,
+    xivo-config,
+    xivo-fetchfw,
+    xivo-keyring,
+    xivo-manage-db,
+    xivo-monitoring,
+    xivo-res-freeze-check,
+    wazo-sounds-en-us,
+    wazo-sounds-fr-fr,
+    xivo-stat,
+    xivo-swagger-doc,
+    xivo-sync,
+    xivo-sysconfd
+Provides: xivo, xivo-base
+Replaces: xivo, xivo-base
+Conflicts: xivo, xivo-base
+Description: Wazo complete telephony solution - base system
+ Wazo is a system based on a powerful IPBX, to bring an easy to
+ install solution for telephony and related services.
+ .
+ This meta package is used to install the full Wazo system.
+ .
