@@ -60,6 +60,7 @@ Depends:
     wazo-service,
     wazo-sounds-en-us,
     wazo-sounds-fr-fr,
+    wazo-stat,
     wazo-upgrade,
     wazo-webhookd,
     wazo-websocketd,
@@ -69,7 +70,6 @@ Depends:
     xivo-manage-db,
     xivo-monitoring,
     xivo-res-freeze-check,
-    xivo-stat,
     xivo-swagger-doc,
     xivo-sync,
     xivo-sysconfd
