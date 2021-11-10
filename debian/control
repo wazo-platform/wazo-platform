@@ -59,6 +59,7 @@ Depends:
     wazo-provd-client-python3,
     wazo-purge-db,
     wazo-service,
+    wazo-sounds-main,
     wazo-sounds-en-us,
     wazo-sounds-fr-fr,
     wazo-stat,
