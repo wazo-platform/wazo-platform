@@ -43,7 +43,6 @@ Depends:
     wazo-confd-client-python3,
     wazo-confgend,
     wazo-confgend-client,
-    wazo-consul-config,
     wazo-debug,
     wazo-dird,
     wazo-dist-upgrade,
