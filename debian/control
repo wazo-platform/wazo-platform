@@ -20,7 +20,7 @@ Depends:
     mutt,
     ntp,
     postfix,
-    python-certbot-nginx,
+    python3-certbot-nginx,
     rabbitmq-server,
     rsync,
     screen,
