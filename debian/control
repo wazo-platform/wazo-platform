@@ -50,6 +50,7 @@ Depends:
     wazo-dxtorc,
     wazo-keyring,
     wazo-libsccp,
+    wazo-monitoring,
     wazo-nginx,
     wazo-phoned,
     wazo-plugind,
@@ -71,7 +72,6 @@ Depends:
     xivo-config,
     xivo-fetchfw,
     xivo-manage-db,
-    xivo-monitoring,
     xivo-res-freeze-check,
     xivo-swagger-doc,
     xivo-sync
