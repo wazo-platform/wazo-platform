@@ -74,7 +74,7 @@ Depends:
     xivo-manage-db,
     xivo-res-freeze-check,
     xivo-swagger-doc,
-    xivo-sync
+    wazo-sync
 Provides: xivo, xivo-base
 Replaces: xivo, xivo-base
 Conflicts: xivo, xivo-base
