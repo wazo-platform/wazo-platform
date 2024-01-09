@@ -65,6 +65,7 @@ Depends:
     wazo-sounds-en-us,
     wazo-sounds-fr-fr,
     wazo-stat,
+    wazo-sync,
     wazo-sysconfd,
     wazo-upgrade,
     wazo-webhookd,
@@ -73,8 +74,7 @@ Depends:
     xivo-fetchfw,
     xivo-manage-db,
     xivo-res-freeze-check,
-    xivo-swagger-doc,
-    xivo-sync
+    xivo-swagger-doc
 Provides: xivo, xivo-base
 Replaces: xivo, xivo-base
 Conflicts: xivo, xivo-base
