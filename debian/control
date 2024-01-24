@@ -1,6 +1,6 @@
 Source: wazo-platform
 Section: comm
-Priority: extra
+Priority: optional
 Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 12)
 Standards-Version: 3.9.6
@@ -75,9 +75,6 @@ Depends:
     xivo-manage-db,
     xivo-res-freeze-check,
     xivo-swagger-doc
-Provides: xivo, xivo-base
-Replaces: xivo, xivo-base
-Conflicts: xivo, xivo-base
 Description: Wazo complete telephony solution - base system
  Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
