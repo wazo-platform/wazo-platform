@@ -73,8 +73,7 @@ Depends:
     xivo-config,
     xivo-fetchfw,
     xivo-manage-db,
-    xivo-res-freeze-check,
-    xivo-swagger-doc
+    xivo-res-freeze-check
 Description: Wazo complete telephony solution - base system
  Wazo is a system based on a powerful IPBX, to bring an easy to
  install solution for telephony and related services.
