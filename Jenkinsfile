@@ -19,6 +19,9 @@ pipeline {
           string(name: 'PACKAGE', value: "wazo-platform"),
           string(name: "BRANCH", value: "bookworm"),
           string(name: "DISTRIBUTION", value: "wazo-dev-bookworm"),
+          string(name: "BRANCH", value: "bookworm"),
+          string(name: "DISTRIBUTION", value: "wazo-dev-bookworm"),
+          string(name: "DISTRIBUTION", value: "wazo-dev-bookworm"),
         ]
       }
     }
