@@ -18,7 +18,7 @@ Depends:
     madplay,
     molly-guard,
     mutt,
-    ntp,
+    ntpsec,
     postfix,
     python3-certbot-nginx,
     rabbitmq-server,
