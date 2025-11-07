@@ -1,3 +1,15 @@
+- job:
+    name: debian-packaging-bookworm-m1m
+    parent: debian-packaging-bookworm
+    nodeset: vm-debian-12-m1m
+
 - project:
-    templates:
-      - debian-packaging-bookworm
+    wazo-check:
+      jobs:
+        - debian-packaging-bookworm-m1m
+    wazo-gate:
+      jobs:
+        - debian-packaging-bookworm-m1m
+    auto-merge:
+      jobs:
+        - noop
