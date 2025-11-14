@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 Package: wazo-platform
 Architecture: all
 Depends:
-    asterisk (>= 11.6.0) | asterisk-virtual,
+    asterisk | asterisk-virtual,
     asterisk-sounds-main,
     asterisk-sounds-wav-en-us,
     asterisk-sounds-wav-fr-fr,
